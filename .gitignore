@@ -1,0 +1,17 @@
+# Cypress folders to ignore
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/snapshots/
+
+# Node modules and build
+node_modules/
+dist/
+build/
+
+# OS and editor specific
+.DS_Store
+.env
+.vscode/
+.idea/
+*.log
