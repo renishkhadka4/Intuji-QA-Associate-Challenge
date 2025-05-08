@@ -57,3 +57,4 @@ Cypress.Commands.add('verifyProductDetails', () => {
   cy.contains('Availability:').should('be.visible'); // Stock availability
   cy.contains('.product-information p', 'Condition:').should('contain.text', 'New'); // Product condition
 });
+
